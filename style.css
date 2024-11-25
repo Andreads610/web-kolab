@@ -1,0 +1,64 @@
+header{
+    width: 1280px;
+}
+/* Kode CSS navigator*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 162, 193);
+    overflow: hidden;
+    font-size: large;
+    width: 1280px;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+    background-color: rgb(246, 129, 211);
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: paleturquoise;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px palevioletred;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(153, 255, 147);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* kode CSS side bar*/
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+/* left collumn */
